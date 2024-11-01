@@ -1,0 +1,18 @@
+.property-image { height: 200px; object-fit: cover; }
+#hero { background-color: #5F6F52; color: whitesmoke; }
+.container {
+    text-align: center;
+}
+.redirect-button {
+    background-color: #8ed68cbd;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.redirect-button:hover {
+    background-color: #9bf09863;
+}

@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e4e4e4;
+    margin: 0;
+  }
+  
+  #controls {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #007bff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  #blueprintContainer {
+    width: 800px; 
+    height: 600px;
+    margin: auto;
+    border: 2px dashed #007bff;
+    position: relative;
+    background-color: #fff; 
+  }
+  
+  .room {
+    padding: 20px;
+    border: 1px solid #007bff;
+    background-color: #f8f9fa;
+    position: absolute; 
+    cursor: move; 
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
+  }
+  
+  .resize-handle {
+    width: 20px;
+    height: 20px;
+    background-color: #007bff;
+    color: white;
+    display: inline-block;
+    cursor: se-resize; 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  #livingRoom {
+    width: 300px;
+    height: 200px;
+    top: 20px;
+    left: 20px; 
+  }
+  
+  #kitchen {
+    width: 250px;
+    height: 150px;
+    top: 20px;
+    left: 350px; 
+  }
+  
+  #bedroom {
+    width: 300px;
+    height: 200px;
+    top: 250px;
+    left: 20px; 
+  }
+  
+  #bathroom {
+    width: 150px;
+    height: 150px;
+    top: 250px;
+    left: 350px; 
+  }

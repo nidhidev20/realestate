@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Blueprint</title>
+  <link rel="stylesheet" href="blueprint.css"/>
+</head>
+<body>
+  <div id="controls">
+    <h3>Adjust Floor Plan Size</h3>
+    <label for="floorWidth">Width (px):</label>
+    <input type="number" id="floorWidth" value="800" min="300">
+    <label for="floorHeight">Height (px):</label>
+    <input type="number" id="floorHeight" value="600" min="300">
+    <button id="resizeFloor">Resize Floor</button>
+  </div>
+
+  <div id="blueprintContainer">
+    <div class="room" id="livingRoom">Living Room
+      <div class="resize-handle" id="livingRoomResize">↔️</div>
+    </div>
+    <div class="room" id="kitchen">Kitchen
+      <div class="resize-handle" id="kitchenResize">↔️</div>
+    </div>
+    <div class="room" id="bedroom">Bedroom
+      <div class="resize-handle" id="bedroomResize">↔️</div>
+    </div>
+    <div class="room" id="bathroom">Bathroom
+      <div class="resize-handle" id="bathroomResize">↔️</div>
+    </div>
+  </div>
+  <script src="blueprint.js"></script>
+</body>
+</html>
