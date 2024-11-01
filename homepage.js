@@ -24,7 +24,7 @@ function displayProperties(propertyList) {
                         <p class="card-text">Price: ${property.price.toLocaleString()}</p>
                         <p class="card-text">Location: ${property.location}</p>
                         <p class="card-text">Bhk: ${property.bhk} | Sq Ft: ${property.sqft}</p>
-                        <a href="${property.link}" class="btn btn-primary">View Details</a>
+                        <a href="${property.link}" class="btn btn-warning">View Details</a>
                     </div>
                 </div>
             </div>`;
